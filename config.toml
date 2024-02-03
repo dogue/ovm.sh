@@ -27,6 +27,7 @@ is_netlify = false
 edit_page = false
 docs_repo = "https://github.com/dogue/ovm"
 repo_branch = "master"
+title_addition = "Odin Version Manager"
 
 [[extra.menu.main]]
 name = "Quickstart"
