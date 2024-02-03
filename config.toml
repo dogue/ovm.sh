@@ -32,7 +32,7 @@ title_addition = "Odin Version Manager"
 [[extra.menu.main]]
 name = "Quickstart"
 section = "installing"
-url = "/docs/install"
+url = "/docs/prerequisites"
 
 [[extra.menu.social]]
 name = "Github"

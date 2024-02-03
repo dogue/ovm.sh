@@ -2,7 +2,7 @@
 render = true
 title = "Odin Version Manager"
 extra.lead = "Easily install/upgrade/switch between different versions of Odin."
-extra.url = "/docs/install"
+extra.url = "/docs/prerequisites"
 +++
 
 ### What Is It?
