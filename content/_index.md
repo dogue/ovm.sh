@@ -7,7 +7,7 @@ extra.url = "/docs/install"
 
 ### What Is It?
 
-Odin Version Manager (ovm) is a tool for managing your Odin installs. With the compiler under heavy development, Odin is bound to continue changing. While it's greast that Odin is growing so quickly, this can lead to headaches when you may need a specific version for a particular project, or want to stay up to date with the latest.
+Odin Version Manager (ovm) is a tool for managing your Odin installs. With the compiler under heavy development, Odin is bound to continue changing. While it's great that Odin is growing so quickly, this can lead to headaches when you may need a specific version for a particular project, or want to stay up to date with the latest.
 
 ### Why Should I Use OVM?
 
