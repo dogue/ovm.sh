@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://ovm.sh/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://ovm.sh/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://ovm.sh/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Using OVM | OVM</title>
+<meta name="description" content="">
+<link rel="canonical" href="https://ovm.sh/docs/usage/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://ovm.sh/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://ovm.sh/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Usage",
+            "item": "https://ovm.sh/docs/usage/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://ovm.sh/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://ovm.sh/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://ovm.sh/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://ovm.sh/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://ovm.sh">OVM</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/dogue/ovm"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">Github</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://ovm.sh/docs/install/">Quickstart</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+					<h3>Docs</h3>
+					<ul class="list-unstyled">
+					                           
+							<li><a class="docs-link" href="https://ovm.sh/docs/install/">Installing OVM</a></li>
+					                           
+							<li><a class="docs-link active" href="https://ovm.sh/docs/usage/">Using OVM</a></li>
+					
+					</ul>
+			
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+  			<h3>On this page</h3>
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#install-odin">Install Odin</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://ovm.sh/docs/usage/#install-ols-with-ovm">Install OLS with OVM</a></li>
+  											
+  									</ul>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#switch-the-active-odin-version">Switch the active Odin version</a></li>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#list-installed-odin-versions">List installed Odin versions</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://ovm.sh/docs/usage/#list-versions-available-for-download">List versions available for download</a></li>
+  											
+  									</ul>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#remove-an-odin-version">Remove an Odin version</a></li>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#upgrade-your-ovm-installation">Upgrade your OVM installation</a></li>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#toggle-output-colors">Toggle output colors</a></li>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#cli-help">CLI help</a></li>
+  							
+  							
+  							<li><a href="https://ovm.sh/docs/usage/#option-flags">Option flags</a></li>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Using OVM</h1>
+        
+        <h2 id="install-odin">Install Odin</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> install &lt;version&gt;
+</span><span style="color:#65737e;"># or
+</span><span style="color:#bf616a;">ovm</span><span> i &lt;version&gt;
+</span></code></pre>
+<p>Use <code>install</code> or <code>i</code> to download a specific monthly release of Odin. To install the latest release, use &quot;latest&quot; or leave the version empty. To install the bleeding edge from the master branch, use &quot;master&quot;.</p>
+<h3 id="install-ols-with-ovm">Install OLS with OVM</h3>
+<p>OVM can also install the Odin Language Server for you. To install OLS, pass the <code>-l/--lsp</code> flag to <code>ovm install</code>.</p>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> i master</span><span style="color:#bf616a;"> -l
+</span><span style="color:#65737e;"># or
+</span><span style="color:#bf616a;">ovm</span><span> i master</span><span style="color:#bf616a;"> --lsp
+</span></code></pre>
+<hr />
+<h2 id="switch-the-active-odin-version">Switch the active Odin version</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> use &lt;version&gt;
+</span><span style="color:#65737e;"># or
+</span><span style="color:#bf616a;">ovm</span><span> switch &lt;version&gt;
+</span></code></pre>
+<p>Either <code>use</code> or <code>switch</code> can be used to switch between installed Odin versions.</p>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> use dev-2024-02
+</span></code></pre>
+<hr />
+<h2 id="list-installed-odin-versions">List installed Odin versions</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> ls
+</span><span style="color:#65737e;"># or
+</span><span style="color:#bf616a;">ovm</span><span> list
+</span></code></pre>
+<p>Use <code>ls</code> or <code>list</code> to see a list of all Odin versions currently installed on your system.</p>
+<h3 id="list-versions-available-for-download">List versions available for download</h3>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> ls</span><span style="color:#bf616a;"> --remote
+</span></code></pre>
+<p>The <code>-r/--remote</code> flag will list Odin releases that are available to download rather than those installed locally.</p>
+<hr />
+<h2 id="remove-an-odin-version">Remove an Odin version</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> rm dev-2023-08
+</span></code></pre>
+<p>Use <code>remove</code> or <code>rm</code> to uninstall a local version.</p>
+<hr />
+<h2 id="upgrade-your-ovm-installation">Upgrade your OVM installation</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> upgrade
+</span></code></pre>
+<p>OVM will check your current version against the latest and attempt to update itself if there is a newer version available. It should work regardless of where OVM is located, though if it's in a privileged directory you may have to prepend this command with <code>sudo</code>.</p>
+<hr />
+<h2 id="toggle-output-colors">Toggle output colors</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> colors
+</span></code></pre>
+<p>OVM maintains a persistent setting for whether colors in output should be enabled. The <code>colors</code> command will display the current setting and prompt you to toggle it, if you wish.</p>
+<hr />
+<h2 id="cli-help">CLI help</h2>
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">ovm</span><span> help
+</span></code></pre>
+<p>This will print the built-in help text.</p>
+<hr />
+<h2 id="option-flags">Option flags</h2>
+<ul>
+<li><code>-v/--verbose</code> enable additional informational output</li>
+</ul>
+
+        
+        
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item"><div></div></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://ovm.sh/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://ovm.sh/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://ovm.sh/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://ovm.sh/js/search.js" defer></script>
+
+  
+</body>
+</html>

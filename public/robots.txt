@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ovm.sh/sitemap.xml
