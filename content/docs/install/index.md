@@ -1,5 +1,5 @@
 +++
-title = "Installing OVM"
+title = "Installation"
 template = "docs/page.html"
 date = "2024-02-03"
 weight = 5

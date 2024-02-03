@@ -1,5 +1,5 @@
 +++
-title = "Using OVM"
+title = "Usage"
 weight = 10
 template = "docs/page.html"
 [extra]
