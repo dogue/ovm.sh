@@ -7,6 +7,10 @@
         <loc>https://ovm.sh/docs/</loc>
     </url>
     <url>
+        <loc>https://ovm.sh/docs/collections/</loc>
+        <lastmod>2024-02-06</lastmod>
+    </url>
+    <url>
         <loc>https://ovm.sh/docs/install/</loc>
         <lastmod>2024-02-03</lastmod>
     </url>
