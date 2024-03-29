@@ -44,9 +44,9 @@ echo export PATH="$PATH:$OVM_INSTALL" >> $HOME/.profile
 
 If you're on Windows, you can grab the [latest release](https://github.com/dogue/ovm/releases/latest)
 
-### Putting ZVM on your Path
+### Putting OVM on your Path
 
-ZVM requires a few directories to be on your `$PATH`. If you're unfamiliar with updating environment variables on Windows, you can follow [this guide](https://www.computerhope.com/issues/ch000549.htm). Once you're in the appropriate menu, add or append to the following environment variables:
+OVM requires a few directories to be on your `$PATH`. If you're unfamiliar with updating environment variables on Windows, you can follow [this guide](https://www.computerhope.com/issues/ch000549.htm). Once you're in the appropriate menu, add or append to the following environment variables:
 
 Add
 * OVM_INSTALL: C:\Users\\`%YOUR_USERNAME_HERE%`\\.ovm\bin\self
